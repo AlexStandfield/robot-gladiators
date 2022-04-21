@@ -43,7 +43,7 @@ var fight = function(enemyName) {
             window.alert(playerName + " has died!")
         }
         else {
-            window.alert(playerName + " still has " + enemyHealth + " health left.")
+            window.alert(playerName + " still has " + playerHealth + " health left.")
         }
     } else if (promptFight === "skip" || promptFight === "SKIP") {
         // Confirm player wants to skip
