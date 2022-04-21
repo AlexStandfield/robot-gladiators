@@ -66,7 +66,7 @@ var fight = function(enemyName) {
 
 // Execute Function
 for(var i = 0; i < enemyNames.length; i++) {
-    if (playersHealth > 0) {
+    if (playerHealth > 0) {
         // Let the player know where they are and what round it is
         window.alert("Welcome to Robot Gladiators! Round " + (i + 1));
 
