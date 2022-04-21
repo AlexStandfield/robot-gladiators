@@ -46,7 +46,7 @@ var fight = function () {
         else {
             window.alert(playerName + " still has " + enemyHealth + " health left.")
         }
-    } else if (promptFight === "fight" || promptFight === "FIGHT") {
+    } else if (promptFight === "skip" || promptFight === "SKIP") {
         // Confirm player wants to skip
         var confirmSkip = window.confirm("Are you sure you'd like to quit?");
 
