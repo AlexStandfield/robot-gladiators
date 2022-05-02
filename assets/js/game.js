@@ -4,9 +4,20 @@ var randomNumber = function (min, max) {
 
     return value;
 };
+// Function to Set Name
+var getPlayerName = function () {
+    var name = "";
+
+    while (name === "" || name === null) {
+        name = prompt("What is your robots name?")
+    }
+
+    console.log("Your robots name is " + name);
+    return name;
+};
 // Players Robot
 var playerInfo = {
-    name: window.prompt("What is your robots name?"),
+    name: getPlayerName(),
     health: 100,
     attack: 10,
     money: 10,
